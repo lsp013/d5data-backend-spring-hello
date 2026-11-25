@@ -1,0 +1,12 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+spring:
+  application:
+    name: spring-hello
+
+app:
+  jwt:
+    # Development default only. Override with the JWT_SECRET environment variable in production.
+    secret: "${JWT_SECRET:dev-only-secret-key-change-me-0123456789abcdef}"
+    expiration-seconds: ${JWT_EXPIRATION_SECONDS:3600}
