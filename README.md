@@ -1,5 +1,7 @@
 # Spring Hello
 
+Repository: <https://github.com/lsp013/d5data-backend-spring-hello>
+
 A small Spring Boot 3.2.0 + Spring Security service that demonstrates:
 
 - username/password login with a seeded in-memory user (`test` / `123456`);
